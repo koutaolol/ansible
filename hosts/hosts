@@ -1,0 +1,8 @@
+[servers]
+TEST-SERVER ansible_host=xx.xx.xx.xx
+
+[child_servers:child]
+servers
+
+[all_servers:child]
+child_servers
